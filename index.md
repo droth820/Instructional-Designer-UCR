@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/styles.min.css">
+<title>Instructional Designer</title>
+<style>
+.titleSlide h1 {
+	font-size: 4em;
+	margin-left: 200px;
+}
+.titleSlide h2 {
+	font-size: 2.2em;
+	margin-left: 200px;
+}
+.infographic {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.level:hover {
+	color: #f066f2;
+}
+.tooltip {
+	position: relative;
+	display: inline-block;/*border-bottom: 1px dotted black;*/
+}
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 200px;
+	background-color: #005ce6;
+	color: #ffffff;
+	text-align: center;
+	font-size: 0.75em;
+	border-radius: 6px;
+	padding: 5px 0;
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: -5px;
+	left: 105%;
+}
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+.lowerImg{
+  width: 250px;
+}
+.shadow {
+	-webkit-filter: drop-shadow(8px 8px 10px #cd5806);
+	filter: drop-shadow(8px 8px 10px #cd5806);
+}
+.glow {
+	color: #ffffff;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+ @-webkit-keyframes glow {
+ from {
+ text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2d6cc0, 0 0 40px #2d6cc0, 0 0 50px #2d6cc0, 0 0 60px #2d6cc0, 0 0 70px #2d6cc0;
+}
+ to {
+ text-shadow: 0 0 20px #fff, 0 0 30px #f1ab00, 0 0 40px #f1ab00, 0 0 50px #f1ab00, 0 0 60px #f1ab00, 0 0 70px #f1ab00, 0 0 80px #f1ab00;
+}
+}
+</style>
+</head>
+<body>
+<div class="slides">
+  <section class="titleSlide">
+    <h1 class="glow">Instructrional Desgin Consultant UCR</h1>
+    <h2>Overview of ID Role at UCR 2019 - 2020</h2>
+  </section>
+  <section>
+    <h1>Primary Role </h1>
+    <h2>Construction of new HR eLearning courses and conversion of existing Flash based courses to HTML5.</h2>
+   <img class="shadow lowerImg" src="images/ucr_seal.png" alt="UCR Seal" /> </section>
+ <section>
+    <h1>Accomplishments</h1>
+    <h2>July 2019 - November 2020.</h2>
+    <h3>
+      <ul>
+        <li>40 eLerning courses</li>
+        <li>Helped convert NSO from in-person to virtual environment
+          <ul>
+            <li>Trained NSO Team on use of Zoom application</li>
+            <li>Created participant and facilitator materials</li>
+            <li>Created visual assets</li>
+          </ul>
+        </li>
+        <li>Created video documentary on History of UCR and the UC System</li>
+        <li>NSO team has recieved high praise from UCR Chancellor, Vice Chancellor, and presenters</li>
+      </ul>
+    </h3>
+    <img class="shadow lowerImg" src="images/ucr_seal.png" alt="UCR Seal" /></section>
+  
+  <section>
+    <h1>Collaboration HR</h1>
+    <h3>I report to and work with Sinclair Dickerson (Director of Talent Acquisition and Diversity Outreach) and collaborate on various projects.
+      <ul>
+        <li>Standing 1:1 bi-weekly update meetings</li>
+        <li>I provide status reports to Sinclair every Friday</li>
+        <li>I provide next steps and projections for future projects</li>
+      </ul>
+    </h3>
+    <img class="shadow lowerImg" src="images/ucr_seal.png" alt="UCR Seal" /></section>
+  <section>
+    <h1>Collaboration BFS</h1>
+    <h2>I currently work with Bobbi McCraken supporting the Business and Financial Services team.</h2>
+    <h3>
+      <ul>
+        <li>Accounting</li>
+        <li>Procurement Services</li>
+        <li>Student Business Services</li>
+      </ul>
+    </h3>
+    <img class="shadow lowerImg" src="images/ucr_seal.png" alt="UCR Seal" /></section>
+  <section>
+    <h1>Collaboration Student Affairs & Marketing and LMS</h1>
+    <h2>I have consulted with Melbert Sabayan, under the direction of David Edgerton (Interim Director of Student Affairs & Marketing) and Sinclair Dickerson (Director of Talent Acquisition and Diversity Outreach) during the development process of some of their courses.</h2>
+    <h2>I also consult with Marilyn Parker (LMS Administrator) on course development, testing, and posting of courses on the LMS.</h2>
+    <img class="shadow lowerImg" src="images/ucr_seal.png" alt="UCR Seal />
+  </section>
+ <section class="titleSlide">
+    <h1 class="glow"></h1>
+  </section>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+<script src="js/jquery.touchSwipe.min.js"></script> 
+<script src="js/app.min.js"></script>
+</body>
+</html>
